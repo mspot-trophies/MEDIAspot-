@@ -18,7 +18,6 @@ const PRODUCTS = [
   {id:16,title:'trophy16',price:579,category:'trophies ',img:'https://joytreeglobal.com/wp-content/uploads/Customized-7-Star-Corporate-Award-Trophy-copy.webp_1.webp',rating:4.5},
   {id:17,title:'trophy17',price:624,category:'trophies ',img:'https://artright.in/wp-content/uploads/2024/09/Untitled-1-scaled.jpg',rating:4.1},
   {id:18,title:'trophy18',price:799,category:'trophies ',img:'https://images.jdmagicbox.com/quickquotes/images_main/diamond-trophies-2008268411-59ogoe1z.jpg',rating:4.8},
-
 ];
 
 // --- State & helpers ---
@@ -166,6 +165,7 @@ $('checkoutForm').addEventListener('submit', e=>{
 // Initialize
 renderProducts(); 
 updateCartUI();
+
 
 
 
