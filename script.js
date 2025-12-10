@@ -6,6 +6,12 @@ const PRODUCTS = [
   {id:4,title:'trophy4',price:579,category:'trophies ',img:'https://joytreeglobal.com/wp-content/uploads/Customized-7-Star-Corporate-Award-Trophy-copy.webp_1.webp',rating:4.5},
   {id:5,title:'trophy5',price:624,category:'trophies ',img:'https://artright.in/wp-content/uploads/2024/09/Untitled-1-scaled.jpg',rating:4.1},
   {id:6,title:'trophy6',price:799,category:'trophies ',img:'https://images.jdmagicbox.com/quickquotes/images_main/diamond-trophies-2008268411-59ogoe1z.jpg',rating:4.8},
+  {id:7,title:'trophy1',price:129,category:'trophies ',img:'https://merutrophy.in/cdn/shop/files/gold-metal-trophy-133_d6f16cdd-74f2-4b42-872d-589a8d3d674d.png?v=1753966530',rating:4.6},
+  {id:8,title:'trophy2',price:449,category:'trophies ',img:'https://promotionalwears.com/image/cache/catalog/data/Trophies/custom-trophy/achievement-cup-trophies-500x500.webp',rating:4.2},
+  {id:9,title:'trophy3',price:619,category:'trophies ',img:'https://cpimg.tistatic.com/10224040/b/4/Metal-Wooden-Shield-Trophies-3-PCS-Set..jpg',rating:4.4},
+  {id:10,title:'trophy4',price:579,category:'trophies ',img:'https://joytreeglobal.com/wp-content/uploads/Customized-7-Star-Corporate-Award-Trophy-copy.webp_1.webp',rating:4.5},
+  {id:11,title:'trophy5',price:624,category:'trophies ',img:'https://artright.in/wp-content/uploads/2024/09/Untitled-1-scaled.jpg',rating:4.1},
+  {id:12,title:'trophy6',price:799,category:'trophies ',img:'https://images.jdmagicbox.com/quickquotes/images_main/diamond-trophies-2008268411-59ogoe1z.jpg',rating:4.8},
 ];
 
 // --- State & helpers ---
@@ -153,3 +159,4 @@ $('checkoutForm').addEventListener('submit', e=>{
 // Initialize
 renderProducts(); 
 updateCartUI();
+
